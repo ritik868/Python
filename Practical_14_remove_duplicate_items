@@ -1,0 +1,18 @@
+  #<--Using set function-->
+l = [1, 2, 3, 4, 5, 7, 9, 3, 7, 1]
+
+new_l = list(set(l))
+
+print(new_l)
+
+#<--Using membership operator-->
+
+l2 = []
+
+for a in l:
+    if a not in l2:
+        l2.append(a)
+
+print(l2)        
+
+    
